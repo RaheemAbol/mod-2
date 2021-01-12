@@ -23,14 +23,7 @@ class Border extends React.Component {
       )
     }
   }
-  // header
-  class Header extends React.Component {
-      render () {
-          return (
-              <h1>commence Dashboard Creation!</h1>
-          )
-      }
-  }
+
 // sidebar
   class Sidebar extends React.Component {
     render() {
@@ -105,7 +98,6 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Header />
                 <Border />
             </div>
         )
