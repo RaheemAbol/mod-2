@@ -1,0 +1,59 @@
+html {
+    background: rgb(141, 140, 140)
+}
+
+body{
+    color: black;
+    margin: 0;
+}
+
+.container > div {
+    display: grid;
+    justify-content: space-around;
+    min-height: 50vh;
+}
+
+.border {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw 10vw;
+    flex-basis: 80%;
+}
+
+.border div {
+    border: 20px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    flex-basis: 100%;
+    align-self: center;
+}
+
+.sidebar{
+    grid-area: span 3/ span 1;
+    text-align: center;
+}
+
+.visitors {
+    grid-area: span 2/ span 3;
+}
+
+.average {
+    grid-area: span 1/ span 1;
+    text-align: center;
+}
+
+.sentiment {
+    grid-area: span 1/ span 1;
+    text-align: center;
+}
+
+.reviews {
+    grid-area: span 1/ span 1;
+    text-align: center;
+}
