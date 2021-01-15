@@ -1,0 +1,27 @@
+body {
+    margin: 1em;
+    padding: 1em;
+    font-family: ‘Poppins’, sans-serif;
+    background: #002966;
+    text-align: center;
+  }
+  div{
+    margin: auto;
+    width: 80%;
+    box-shadow: 0 0 8px dodgerblue;
+    padding: 1em;
+    background:#e6f5ff;
+  }
+  ul {
+      list-style-type: none;
+      background: #B3EBFF;
+  }
+  #item{
+    background:#ccebff;
+  }
+  #brand{
+    background: #CCEBFF;
+  }
+  #units{
+    background: #CCEBFF;
+  }
